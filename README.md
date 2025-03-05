@@ -1,0 +1,1 @@
+# Este es mi proyecto sobre la actividad responsive CSS.
