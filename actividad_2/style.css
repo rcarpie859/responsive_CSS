@@ -9,6 +9,9 @@
     .box{
         background-color: red;
     }
+    body{
+        font-size: 14px;
+    }
 }
 @media (max-width: 800px){
     .box{
@@ -20,5 +23,10 @@
     .box{
         width: 50%;
         background-color: green;
+    }
+}
+@media (min-width:1024px){
+    body{
+        font-size:14px;
     }
 }
