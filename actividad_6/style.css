@@ -1,0 +1,39 @@
+.mobile-only, .desktop-only {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+@media (max-width: 768px) {
+    .mobile-only {
+        display: block;
+        background-color: aquamarine; 
+    }
+
+    .desktop-only {
+        display: none;
+    
+    }
+}
+
+
+@media (min-width: 768px) {
+    .mobile-only {
+        display: none;
+    }
+
+    .desktop-only {
+        display: block; 
+        background-color: pink;
+    }
+}
+
+@media (min-width: 768px) {
+    .mobile-only {
+        display: none;
+    }
+    .desktop-only {
+        display: block;
+    }
+}
